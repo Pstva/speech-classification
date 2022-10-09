@@ -1,0 +1,26 @@
+Train dataset size:33236
+Epoch: 1, train accuracy:0.8968287399205681, train loss:267.28902220353484, val accuracy:0.9105648535564853
+New best result on epoch 1
+Epoch: 2, train accuracy:0.9415994704537248, train loss:156.18760558776557, val accuracy:0.9250348675034867
+New best result on epoch 2
+Epoch: 3, train accuracy:0.959983150800337, train loss:110.76302472734824, val accuracy:0.9145746164574616
+Epoch: 4, train accuracy:0.9688891563365026, train loss:88.45294405287132, val accuracy:0.9266039051603905
+New best result on epoch 4
+Epoch: 5, train accuracy:0.9729811048260922, train loss:75.71199866090319, val accuracy:0.9354951185495118
+New best result on epoch 5
+Epoch: 6, train accuracy:0.9758093633409556, train loss:74.39697032838012, val accuracy:0.9236401673640168
+Epoch: 7, train accuracy:0.9780960404380792, train loss:63.73492372094188, val accuracy:0.9389818688981869
+New best result on epoch 7
+Epoch: 8, train accuracy:0.9799013118305452, train loss:59.52779557715985, val accuracy:0.9302649930264993
+Epoch: 9, train accuracy:0.9824587796365387, train loss:51.54420905697043, val accuracy:0.927649930264993
+Epoch: 10, train accuracy:0.9823384282103743, train loss:51.13812289357884, val accuracy:0.9279986052998606
+Epoch: 11, train accuracy:0.9842339631724636, train loss:46.08995322906412, val accuracy:0.926255230125523
+Epoch: 12, train accuracy:0.9857082681429775, train loss:42.85879775301146, val accuracy:0.9330543933054394
+Epoch: 13, train accuracy:0.9861896738476351, train loss:40.49392983911821, val accuracy:0.9313110181311018
+Epoch: 14, train accuracy:0.9868516066915393, train loss:38.34096565335494, val accuracy:0.9306136680613668
+Epoch: 15, train accuracy:0.9882055602358888, train loss:34.00489051061231, val accuracy:0.9354951185495118
+Epoch: 16, train accuracy:0.988867493079793, train loss:32.77492644195445, val accuracy:0.9337517433751743
+Epoch: 17, train accuracy:0.9884462630882176, train loss:32.3547915659874, val accuracy:0.9375871687587168
+Stopping at epoch 17, no improvement during 10 epochs 
+Best result on epoch 7 with accuracy on val data: 0.9389818688981869
+Best model was saved to models/vgg16.pkl

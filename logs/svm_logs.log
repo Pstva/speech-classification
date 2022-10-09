@@ -1,0 +1,123 @@
+X_train size: (2397, 12032), X_dev size: (5736, 12032)
+kernel=linear, C=1
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84      2760
+           1       0.84      0.87      0.86      2976
+
+    accuracy                           0.85      5736
+   macro avg       0.85      0.85      0.85      5736
+weighted avg       0.85      0.85      0.85      5736
+
+kernel=linear, C=10
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84      2760
+           1       0.84      0.87      0.86      2976
+
+    accuracy                           0.85      5736
+   macro avg       0.85      0.85      0.85      5736
+weighted avg       0.85      0.85      0.85      5736
+
+kernel=linear, C=100
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84      2760
+           1       0.84      0.87      0.86      2976
+
+    accuracy                           0.85      5736
+   macro avg       0.85      0.85      0.85      5736
+weighted avg       0.85      0.85      0.85      5736
+
+kernel=linear, C=1000
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84      2760
+           1       0.84      0.87      0.86      2976
+
+    accuracy                           0.85      5736
+   macro avg       0.85      0.85      0.85      5736
+weighted avg       0.85      0.85      0.85      5736
+
+kernel=poly, C=1
+              precision    recall  f1-score   support
+
+           0       0.96      0.59      0.73      2760
+           1       0.72      0.98      0.83      2976
+
+    accuracy                           0.79      5736
+   macro avg       0.84      0.79      0.78      5736
+weighted avg       0.84      0.79      0.78      5736
+
+kernel=poly, C=10
+              precision    recall  f1-score   support
+
+           0       0.93      0.75      0.83      2760
+           1       0.80      0.95      0.87      2976
+
+    accuracy                           0.85      5736
+   macro avg       0.87      0.85      0.85      5736
+weighted avg       0.86      0.85      0.85      5736
+
+kernel=poly, C=100
+              precision    recall  f1-score   support
+
+           0       0.88      0.82      0.84      2760
+           1       0.84      0.89      0.87      2976
+
+    accuracy                           0.86      5736
+   macro avg       0.86      0.85      0.85      5736
+weighted avg       0.86      0.86      0.86      5736
+
+kernel=poly, C=1000
+              precision    recall  f1-score   support
+
+           0       0.77      0.84      0.81      2760
+           1       0.84      0.77      0.81      2976
+
+    accuracy                           0.81      5736
+   macro avg       0.81      0.81      0.81      5736
+weighted avg       0.81      0.81      0.81      5736
+
+kernel=rbf, C=1
+              precision    recall  f1-score   support
+
+           0       0.98      0.76      0.86      2760
+           1       0.82      0.98      0.89      2976
+
+    accuracy                           0.88      5736
+   macro avg       0.90      0.87      0.88      5736
+weighted avg       0.89      0.88      0.88      5736
+
+kernel=rbf, C=10
+              precision    recall  f1-score   support
+
+           0       0.94      0.80      0.86      2760
+           1       0.83      0.95      0.89      2976
+
+    accuracy                           0.88      5736
+   macro avg       0.89      0.87      0.88      5736
+weighted avg       0.89      0.88      0.88      5736
+
+kernel=rbf, C=100
+              precision    recall  f1-score   support
+
+           0       0.92      0.80      0.85      2760
+           1       0.83      0.93      0.88      2976
+
+    accuracy                           0.87      5736
+   macro avg       0.88      0.87      0.87      5736
+weighted avg       0.87      0.87      0.87      5736
+
+kernel=rbf, C=1000
+              precision    recall  f1-score   support
+
+           0       0.92      0.80      0.85      2760
+           1       0.83      0.93      0.88      2976
+
+    accuracy                           0.87      5736
+   macro avg       0.88      0.87      0.87      5736
+weighted avg       0.87      0.87      0.87      5736
+
+best results with accuracy=0.8779637377963738 with kernel=rbf and C=1
+saved to models/svm.pkl

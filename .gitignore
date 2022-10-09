@@ -1,0 +1,6 @@
+data/dev-clean
+data/test-clean
+data/test-other
+data/train-clean-100
+notebooks/.ipynb_checkpoints
+.idea/
